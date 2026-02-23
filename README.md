@@ -87,3 +87,18 @@ asdf local 25.4.0
 ```
 npm run dev
 ```
+
+<details><summary>出力ログ</summary>
+
+```bash
+> simple-chat@0.0.1 dev
+> vite
+
+  VITE v6.4.1  ready in 128 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.31.250.9:3000/
+  ➜  press h + enter to show help
+```
+
+</details>
