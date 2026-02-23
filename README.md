@@ -37,7 +37,7 @@ python -m venv venv
 deactivate
 ```
 
-**2. ライブラリや環境変数を設定する**
+**1-2. ライブラリや環境変数を設定する**
 
 ```bash
 uv sync
@@ -50,7 +50,7 @@ cp env.example .env
 GOOGLE_API_KEY=<your gemini api key>
 ```
 
-**3. サーバーを立ち上げる**
+**1-3. サーバーを立ち上げる**
 
 ```bash
 uv run business_agent
@@ -69,3 +69,21 @@ INFO:     Uvicorn running on http://localhost:10999 (Press CTRL+C to quit)
 
 #### 2. サンプルのWebアプリの立ち上げ
 
+[./sample-a2a/chat-agent/](./sample-a2a/chat-agent/)で実施
+
+**2-1. Node.js環境の立ち上げ**
+
+Mac環境でNode.js v25を利用（バージョン管理にasdfを利用）
+
+```bash
+asdf local 25.4.0
+
+# node -v
+# v25.4.0
+```
+
+**2-2. フロントエンドを立ち上げ**
+
+```
+npm run dev
+```
